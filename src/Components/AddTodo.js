@@ -18,11 +18,11 @@ export const AddTodo = (props) => {
   };
   return (
     <div className="container">
-      <h3 className="notification is-primary is-light title is-4 has-text-centered m-6">
+      <h3 className="notification is-primary title is-3 has-text-centered">
         Add a Todo
       </h3>
-      <hr className="mx-3" />
-      <form onSubmit={submit} className="m-6">
+      <hr style={{backgroundColor: '#00d1b2'}} />
+      <form onSubmit={submit}>
         <div className="field">
           <div className="control">
             <input
@@ -58,8 +58,8 @@ export const AddTodo = (props) => {
           </div>
         </div>
       </form>
-      <hr className="mx-3" />
-      <hr className="mx-3 mb-6" />
+      <hr style={{backgroundColor: '#00d1b2'}} />
+      <hr style={{backgroundColor: '#00d1b2'}} />
     </div>
   );
 };
