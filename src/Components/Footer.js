@@ -3,7 +3,7 @@ import React from 'react'
 export const Footer = () => {
     let footerStyle = {
         position: 'relative',
-        top: '100vh'
+        top: '10vh'
     }
     return (
         <div className="notification is-dark footer has-text-centered" style={footerStyle}>
