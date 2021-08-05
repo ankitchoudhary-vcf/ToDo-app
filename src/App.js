@@ -3,7 +3,7 @@ import Todos from "./Components/Todos.js";
 import { Footer } from "./Components/Footer.js";
 import React, { useState, useEffect } from "react";
 import { AddTodo } from "./Components/AddTodo.js";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import { About } from "./Components/About.js";
 
 function App() {
@@ -52,7 +52,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <>
       <Header title="My TodosList" burger={burger} />
       <Switch>
         <Route
@@ -76,7 +76,7 @@ function App() {
         </Route>
       </Switch>
       <Footer />
-    </Router>
+    </>
   );
 }
 
