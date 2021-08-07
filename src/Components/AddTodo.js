@@ -18,7 +18,7 @@ export const AddTodo = (props) => {
   };
   return (
     <div className="container">
-      <h3 className="notification is-primary title is-3 has-text-centered">
+      <h3 className="notification is-primary title is-size-3-desktop is-size-5-touch has-text-centered">
         Add a Todo
       </h3>
       <hr style={{backgroundColor: '#00d1b2'}} />
