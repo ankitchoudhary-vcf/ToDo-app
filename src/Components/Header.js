@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Header(props) {
   return (
-    <div>
+    <>
       <nav
         className="navbar is-primary"
         role="navigation"
@@ -38,7 +38,7 @@ export default function Header(props) {
           </div>
         </div>
       </nav>
-    </div>
+    </>
   );
 }
 
