@@ -60,11 +60,11 @@ function App() {
           path="/"
           render={() => {
             return (
-              <div className="columns is-mobile is-centered">
-                <div className="column is-5-mobile is-8-desktop notification is-box is-primary is-light mt-6 m-2">
+              <div className="columns is-mobile is-centered is-vcentered m-0">
+                <div className="column is-5-mobile is-8-desktop notification is-box is-primary is-light mr-2 mt-6">
                   <Todos todo={todos} onDelete={onDelete} />
                 </div>
-                <div className="column is-5-mobile is-3-desktop notification is-box is-primary is-light m-2 mt-6" >
+                <div className="column is-5-mobile is-3-desktop notification is-box is-primary is-light ml-2 mt-6" >
                   <AddTodo addTodo={addTodo} />
                 </div>
               </div>
